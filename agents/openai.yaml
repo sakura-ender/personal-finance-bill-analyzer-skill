@@ -1,0 +1,6 @@
+interface:
+  display_name: "个人账单全量分析"
+  short_description: "清洗多平台账单并生成财务报表与可视化"
+  default_prompt: "Use $personal-finance-bill-analyzer to analyze these bill exports, remove duplicate and reimbursed spending, and generate a private workbook and dashboard."
+policy:
+  allow_implicit_invocation: true
